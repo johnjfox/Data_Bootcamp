@@ -17,7 +17,7 @@
 ## Video and images 
 *.mp4
 *.mov
-*.png
+
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
