@@ -27,7 +27,7 @@ We'll post announcements here.
 
 **Before the first session.** 
 
-1. Download Python for your operating system. We'll use the 3.5 version of Python. By far the easiest way to obtain Python and all of the packages and tools that you'll need is to download it and install the [Anaconda Distribution from Continuum][Anaconda]  The instructions for installing the software are on the download page. **Be sure to grab Python 3.5, since there are significant differences between the versions.** 
+1. Download Python for your operating system. We'll use the 2.7 version of Python. By far the easiest way to obtain Python and all of the packages and tools that you'll need is to download it and install the [Anaconda Distribution from Continuum][Anaconda]  The instructions for installing the software are on the download page. **Be sure to grab Python 2.7, since there are significant differences between the versions.** 
 2. Setting up a Data_Bootcamp directory on you computer wouldn't be a bad idea so that you can keep all of the materials in one place. 
 3. Grab the Jupyter notebooks that we'll be using in class. 
 
