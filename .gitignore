@@ -13,6 +13,7 @@
 .ini
 *.sqlite
 .ipynb_checkpoints/
+Untitled.ipynb
 
 ## Video and images 
 *.mp4
