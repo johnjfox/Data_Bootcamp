@@ -1,8 +1,3 @@
----
-title: Session 1: Crash Course on Python
-author: John J. Fox
----
-
 # Programming Basics
 
 It's always worthwhile to keep in mind why we are doing something, particularly when we are trying to learn a new skill such as a programming language. If we don't, then we can very quickly get overwhelmed by the enormous
@@ -72,59 +67,59 @@ You may have noticed that each of the cells in this notebook starts with a line 
 
 ```python
 >>> # add two integers, say 1 and 2
-...
-... None
+>>>
+>>> None
 ```
 
 ```python
 >>> # multiply 2 integers, say 2 and 3
-...
-... None
+>>> 
+>>> None
 ```
 
 ```python
 >>> # now divide 2 integers, say 3 by 2 as
-... # 3 / 2
-... # pay attention to what happens here
-...
-... None
+>>> # 3 / 2
+>>> # pay attention to what happens here
+>>>
+>>> None
 ```
 
 ```python
 >>> # In Python 2, when we divide two integers, we get what's called "classic" division within the Python community.
-... # We can avoid this "classic" division, by making sure that one of the numbers is a floating point number, for example try
-... # 3.0 / 2
-...
-... None
+>>> # We can avoid this "classic" division, by making sure that one of the numbers is a floating point number, for example try
+>>> # 3.0 / 2
+>>> 
+>>> None
 ```
 
 ```python
 >>> # And, in this case, the order in which we use the floating point number doesn't matter.
-... # 3 / 2.0
-...
-... None
+>>> # 3 / 2.0
+>>> 
+>>> None
 ```
 
 ```python
 >>> # We can force the issue by using the "float()" function to "cast" one of the integers to be a floating point number.
-... # Note: we'll talk more about functions in a little while, but for now
-... # float(3) / 2
-...
-... None
+>>> # Note: we'll talk more about functions in a little while, but for now
+>>> # float(3) / 2
+>>>
+>>> None
 ```
 
 ```python
 >>> # Finally, we can control the order in which operations are executed using parentheses, for instance, try
-... # 2 * 3 + 4
-...
-... None
+>>> # 2 * 3 + 4
+>>>
+>>> None
 ```
 
 ```python
 >>> # and conversely, notice the difference is we use the following
-... # 2 * ( 3 + 4 )
-...
-... None
+>>> # 2 * ( 3 + 4 )
+>>>
+>>> None
 ```
 
 So what happened here? By default, Python has a specific order in which it will execute operations. As a rule, it will perform multiplication before addition. 
@@ -186,7 +181,8 @@ As a simple exercise, please set up variables called my_income and my_tax_rate c
 
 ```python
 >>> # Build your simple computation here
-... None
+>>>
+>>> None
 ```
 
 ## Answer
@@ -211,6 +207,7 @@ When you evaluate your results, you should get something like:
 Depending on how you actually entered the lines of code, you may not have gotten the "Out" prompt
 
 # Other Fundamental Data Types in Python
+
 ## Objects in Python
 
 ## Strings
@@ -224,11 +221,13 @@ Depending on how you actually entered the lines of code, you may not have gotten
 * frequency / step size / reversing a sting using a -1 step size
 
 ### String Properties
+
 Strings are immutable, i.e. once they are created, they can't be changed or replaced.
 Concatenation using + 
 Duplication using *
 
 ### String Methods
+
 Actions on the objects themselves
 
 ```python
@@ -274,6 +273,7 @@ dlrow olleH
 ```
 
 ## Lists
+
 Enter descriptive text here
 
 ```python
@@ -340,6 +340,7 @@ Enter descriptive text here
 ```
 
 ### List Comprehensions
+
 Enter descriptive text here
 
 ```python
@@ -353,7 +354,9 @@ Enter descriptive text here
 ```
 
 ## Matrices
+
 In python, we can create a data structure called a **matrix** which is a nested collection of lists. For instance:
+
 ```python
 >>> l_1 = [1,2,3]
 >>> l_2 = [4,5,6]
@@ -375,12 +378,6 @@ In python, we can create a data structure called a **matrix** which is a nested 
 ## Dictionaries
 
 A dictionary is basically a mapping between objects. What we've seen so far are sequences, objects where we can index them based on their position. keys must be unique
-
----
-!!python/unicode 'ExecuteTime':
-  !!python/unicode 'end_time': !!python/unicode '2016-02-22T12:18:33.256212'
-  !!python/unicode 'start_time': !!python/unicode '2016-02-22T12:18:33.253951'
-...
 
 ```python
 >>> my_dict = {'key1': 'value', 'key2': 'value2'}
@@ -598,7 +595,7 @@ set([1, 2])
 
 ```python
 >>> # can use the set function to cast a list into a subset of unique elements
-... l = [1,1,1,2,2,2,2,2,3,3,3,3]
+>>> l = [1,1,1,2,2,2,2,2,3,3,3,3]
 >>> print l
 [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3]
 ```
@@ -617,7 +614,9 @@ can be created as the results on conditional operators
 ## Looping with "for" loops
 
 # Functions
+
 ##  Using Built-in Functions
+
 If we want to use other mathematical functions, such as trigonometric functions or 
 essentially anything more complex than arithmetic, then we'll need to import the functions from Python's **math** package.
 
@@ -625,7 +624,8 @@ By itself, the core Python language is pretty simple. Fortunately, however, ther
 
 ## Defining Your Own Functions
 
-##  Adding Additional Functions using Packags
+##  Adding Additional Functions using Packages
+
 If we want to use other mathematical functions, such as trigonometric functions or 
 essentially anything more complex than arithmetic, then we'll need to import the functions from Python's **math** package.
 
